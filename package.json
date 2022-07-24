@@ -1,0 +1,26 @@
+{
+  "name": "goose-helper-testing",
+  "version": "1.0.0",
+  "description": "Application built with the goose-helper package",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amber-Robeck/goose-helper-testing.git"
+  },
+  "author": "Amber Robeck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Amber-Robeck/goose-helper-testing/issues"
+  },
+  "homepage": "https://github.com/Amber-Robeck/goose-helper-testing#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "goose-helper": "^1.0.1",
+    "mongoose": "^6.4.6"
+  }
+}
