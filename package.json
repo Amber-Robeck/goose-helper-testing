@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Amber-Robeck/goose-helper-testing#readme",
   "dependencies": {
+    "argon2": "^0.28.7",
     "express": "^4.18.1",
     "goose-helper": "^1.0.1",
     "mongoose": "^6.4.6"
