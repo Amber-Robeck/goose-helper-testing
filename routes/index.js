@@ -1,5 +1,6 @@
 import { Router as expressRouter } from "express";
 import User from "../models/User.js";
+import { getAllUsers } from "../controllers/userController.js";
 
 const router = expressRouter();
 
@@ -15,5 +16,8 @@ router.post('/signup', (req, res) => {
         .catch(err => res.send(err));
 
 })
+
+router.route('/users')
+    .get(getAllUsers)
 
 export default router;
